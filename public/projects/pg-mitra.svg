@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1120"/>
+      <stop offset="1" stop-color="#050816"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#1E293B" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#0F172A" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" rx="16" fill="url(#bg)"/>
+  
+  <!-- Subtle Grid lines -->
+  <path d="M0 100H800M0 200H800M0 300H800M0 400H800" stroke="#1E293B" stroke-width="1" stroke-dasharray="4 4" opacity="0.3"/>
+  <path d="M200 0V500M400 0V500M600 0V500" stroke="#1E293B" stroke-width="1" stroke-dasharray="4 4" opacity="0.3"/>
+
+  <!-- Top App Browser Bar -->
+  <rect x="40" y="30" width="720" height="42" rx="8" fill="#111827" stroke="#1F2937" stroke-width="1"/>
+  <circle cx="65" cy="51" r="5" fill="#EF4444"/>
+  <circle cx="82" cy="51" r="5" fill="#F59E0B"/>
+  <circle cx="99" cy="51" r="5" fill="#10B981"/>
+  <rect x="130" y="41" width="300" height="20" rx="4" fill="#1F2937"/>
+  <text x="145" y="55" fill="#94A3B8" font-family="Inter, sans-serif" font-size="11" font-weight="500">https://pgmitra.studentliving.in</text>
+  <rect x="670" y="41" width="70" height="20" rx="4" fill="#8B5CF6" fill-opacity="0.2"/>
+  <text x="682" y="55" fill="#C4B5FD" font-family="Inter, sans-serif" font-size="11" font-weight="600">Student PG</text>
+
+  <!-- Main Hero Card: PG Mitra -->
+  <g transform="translate(60, 95)">
+    <!-- Sidebar / Filter Mockup -->
+    <rect x="0" y="0" width="200" height="360" rx="12" fill="url(#cardGrad)" stroke="#334155" stroke-width="1"/>
+    <text x="20" y="35" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="14" font-weight="700">Find Student PG</text>
+    <rect x="20" y="55" width="160" height="32" rx="6" fill="#0B1120" stroke="#334155"/>
+    <text x="32" y="76" fill="#94A3B8" font-family="Inter, sans-serif" font-size="12">🔍 Near University...</text>
+    
+    <text x="20" y="115" fill="#94A3B8" font-family="Inter, sans-serif" font-size="11" font-weight="600">ROOM TYPE</text>
+    <rect x="20" y="130" width="160" height="26" rx="4" fill="#8B5CF6" fill-opacity="0.15" stroke="#8B5CF6"/>
+    <text x="32" y="147" fill="#DDD6FE" font-family="Inter, sans-serif" font-size="11" font-weight="600">✓ Single &amp; Double Sharing</text>
+    <rect x="20" y="165" width="160" height="26" rx="4" fill="#1E293B"/>
+    <text x="32" y="182" fill="#94A3B8" font-family="Inter, sans-serif" font-size="11">AC &amp; Non-AC Rooms</text>
+
+    <!-- Student Community Highlight -->
+    <rect x="20" y="225" width="160" height="110" rx="8" fill="#111827" stroke="#4C1D95" stroke-width="1"/>
+    <text x="32" y="248" fill="#A78BFA" font-family="Inter, sans-serif" font-size="11" font-weight="700">STUDENT COMMUNITY</text>
+    <text x="32" y="270" fill="#E2E8F0" font-family="Inter, sans-serif" font-size="12" font-weight="600">Connect with Roommates</text>
+    <rect x="32" y="285" width="80" height="22" rx="4" fill="url(#purpleGrad)"/>
+    <text x="42" y="300" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="10" font-weight="700">Refer &amp; Earn</text>
+
+    <!-- Right Side: PG Listings -->
+    <g transform="translate(220, 0)">
+      <!-- Card 1 -->
+      <rect x="0" y="0" width="460" height="170" rx="12" fill="url(#cardGrad)" stroke="#334155" stroke-width="1"/>
+      <rect x="15" y="15" width="140" height="140" rx="8" fill="#1E293B"/>
+      <!-- Hostel room visual sketch -->
+      <path d="M30 115H140V135H30z" fill="#334155"/>
+      <rect x="40" y="70" width="40" height="45" rx="3" fill="#8B5CF6" fill-opacity="0.3"/>
+      <rect x="90" y="70" width="40" height="45" rx="3" fill="#06B6D4" fill-opacity="0.3"/>
+      <text x="60" y="148" fill="#8B5CF6" font-family="Inter, sans-serif" font-size="10" font-weight="700">VERIFIED PG</text>
+
+      <text x="175" y="42" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="16" font-weight="700">Heritage Student Residency</text>
+      <text x="175" y="65" fill="#94A3B8" font-family="Inter, sans-serif" font-size="12">📍 200m from Campus Gate • Wi-Fi • Food Included</text>
+      
+      <!-- Badges -->
+      <rect x="175" y="80" width="75" height="22" rx="4" fill="#06B6D4" fill-opacity="0.15"/>
+      <text x="185" y="95" fill="#67E8F9" font-family="Inter, sans-serif" font-size="11" font-weight="500">Free Wi-Fi</text>
+      <rect x="260" y="80" width="70" height="22" rx="4" fill="#10B981" fill-opacity="0.15"/>
+      <text x="270" y="95" fill="#6EE7B7" font-family="Inter, sans-serif" font-size="11" font-weight="500">3 Meals/Day</text>
+      <rect x="340" y="80" width="65" height="22" rx="4" fill="#F59E0B" fill-opacity="0.15"/>
+      <text x="350" y="95" fill="#FCD34D" font-family="Inter, sans-serif" font-size="11" font-weight="600">4.9 ★ (120)</text>
+
+      <!-- Price & CTA -->
+      <text x="175" y="138" fill="#38BDF8" font-family="Inter, sans-serif" font-size="18" font-weight="800">₹5,200<tspan font-size="12" fill="#94A3B8">/month</tspan></text>
+      <rect x="330" y="118" width="115" height="32" rx="6" fill="url(#purpleGrad)"/>
+      <text x="352" y="139" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="12" font-weight="700">Book Room</text>
+
+      <!-- Card 2 -->
+      <rect x="0" y="190" width="460" height="170" rx="12" fill="url(#cardGrad)" stroke="#334155" stroke-width="1"/>
+      <rect x="15" y="205" width="140" height="140" rx="8" fill="#1E293B"/>
+      <text x="50" y="280" fill="#06B6D4" font-family="Inter, sans-serif" font-size="11" font-weight="700">DELUXE HOSTEL</text>
+
+      <text x="175" y="232" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="16" font-weight="700">Metro Stay PG &amp; Co-Living</text>
+      <text x="175" y="255" fill="#94A3B8" font-family="Inter, sans-serif" font-size="12">📍 Central Zone • AC Rooms • Power Backup • Study Hall</text>
+      
+      <rect x="175" y="270" width="85" height="22" rx="4" fill="#8B5CF6" fill-opacity="0.15"/>
+      <text x="185" y="285" fill="#DDD6FE" font-family="Inter, sans-serif" font-size="11" font-weight="500">AC Sharing</text>
+      <rect x="270" y="270" width="75" height="22" rx="4" fill="#3B82F6" fill-opacity="0.15"/>
+      <text x="280" y="285" fill="#93C5FD" font-family="Inter, sans-serif" font-size="11" font-weight="500">24/7 Security</text>
+
+      <text x="175" y="328" fill="#38BDF8" font-family="Inter, sans-serif" font-size="18" font-weight="800">₹4,800<tspan font-size="12" fill="#94A3B8">/month</tspan></text>
+      <rect x="330" y="308" width="115" height="32" rx="6" fill="#1E293B" stroke="#8B5CF6" stroke-width="1"/>
+      <text x="350" y="328" fill="#DDD6FE" font-family="Inter, sans-serif" font-size="12" font-weight="600">View Details</text>
+    </g>
+  </g>
+</svg>
