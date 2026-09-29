@@ -166,7 +166,7 @@ export default function Contact() {
                   </div>
                   <div className="info-text-group">
                     <span className="info-label">GITHUB PROFILE</span>
-                    <span className="info-val">github.com/mayankrajpoot</span>
+                    <span className="info-val">github.com/mayank995676</span>
                   </div>
                 </a>
 

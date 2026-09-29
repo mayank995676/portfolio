@@ -8,7 +8,7 @@ export const personalInfo = {
   location: "Mathura, Uttar Pradesh, India",
   status: "Open to Full Stack Developer Opportunities",
   email: "mayankrajpoot.dev@gmail.com",
-  github: "https://github.com/mayankrajpoot",
+  github: "https://github.com/mayank995676",
   linkedin: "https://linkedin.com/in/mayank-rajpoot",
   bio: "I am a Full Stack Developer and Computer Science student passionate about building clean, performant, and scalable digital solutions. With solid engineering fundamentals across modern frontend frameworks, backend architecture, and database management, I translate complex user needs into polished digital products.",
   education: {
@@ -113,7 +113,7 @@ export const projectsData = [
     ],
     architecture: "Client-server architecture with React SPA frontend communicating via RESTful endpoints to an Express/Node backend, backed by MongoDB for user profiles, booking states, and hostel metadata.",
     liveUrl: null, // Placeholder as requested
-    githubUrl: "https://github.com/mayankrajpoot/pg-mitra",
+    githubUrl: "https://github.com/mayank995676/pg-mitra",
     featured: true,
     badge: "Student Accommodation"
   },
@@ -134,7 +134,7 @@ export const projectsData = [
     ],
     architecture: "Real-time query processing matching blood group compatibility matrices and distance radius, with clean responsive views optimized for high-urgency mobile situations.",
     liveUrl: null,
-    githubUrl: "https://github.com/mayankrajpoot/findmyblood",
+    githubUrl: "https://github.com/mayank995676/findmyblood",
     featured: true,
     badge: "Healthcare Platform"
   },
@@ -155,7 +155,7 @@ export const projectsData = [
     ],
     architecture: "Next.js architecture with client-side reactive state management, modular components, and responsive utility styling.",
     liveUrl: null,
-    githubUrl: "https://github.com/mayankrajpoot/pantrypal",
+    githubUrl: "https://github.com/mayank995676/pantrypal",
     featured: true,
     badge: "Smart Management"
   },
@@ -176,7 +176,7 @@ export const projectsData = [
     ],
     architecture: "Engineered around rapid tokenized queries against toxicity datasets and AI prompt structuring to provide immediate safety ratings.",
     liveUrl: null,
-    githubUrl: "https://github.com/mayankrajpoot/safebite",
+    githubUrl: "https://github.com/mayank995676/safebite",
     featured: false,
     badge: "AI Concept"
   },
@@ -197,7 +197,7 @@ export const projectsData = [
     ],
     architecture: "Modular UI architecture designed with strong semantic HTML5, custom responsive layouts, and performant asset delivery.",
     liveUrl: null,
-    githubUrl: "https://github.com/mayankrajpoot/kiddy-solutions",
+    githubUrl: "https://github.com/mayank995676/kiddy-solutions",
     featured: false,
     badge: "Client Agency"
   }
